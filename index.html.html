@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HP Image Solution — Home Page (Brand-First) Wireframe</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: Arial, Helvetica, sans-serif; background: #e8e8e8; color: #111; }
+.canvas { width: 1440px; margin: 24px auto; background: #fff; }
+.canvas-scroll { overflow-x: auto; padding: 24px 0 40px; }
+.pg-header { background: #1a1a1a; color: #fff; padding: 10px 48px; font-size: 11px; letter-spacing: 1px; border-bottom: 3px solid #444; display: flex; justify-content: space-between; align-items: center; }
+.ph-img { background: #ddd; border: 1px solid #bbb; display: flex; align-items: center; justify-content: center; color: #999; font-size: 12px; text-align: center; }
+.sec-note { font-size: 10px; color: #bbb; letter-spacing: 1px; font-style: italic; padding: 6px 24px; background: #f0f0f0; border-bottom: 1px solid #e0e0e0; }
+.wf-body { font-size: 13px; color: #444; line-height: 1.8; }
+.wf-small { font-size: 11px; color: #777; }
+</style>
+</head>
+<body>
+
+<div class="canvas-scroll">
+<div class="canvas">
+
+  <div class="pg-header">
+    <span>HOME PAGE  /  BRAND-FIRST REDESIGN  /  1440px  /  Reference: BMW USA, HP.com</span>
+    <span style="font-size:10px; color:#666;">vs. original: less utility, more cinema</span>
+  </div>
+
+  <!-- ── UTILITY BAR ── -->
+  <div style="background:#f0f0f0; border-bottom:1px solid #d8d8d8; padding:6px 60px; display:flex; justify-content:flex-end; gap:20px; align-items:center;">
+    <span style="font-size:11px; color:#777;">United States (EN)</span>
+    <span style="font-size:11px; color:#ccc;">|</span>
+    <span style="font-size:11px; color:#777;">Japan (JA)</span>
+    <span style="font-size:11px; color:#ccc;">|</span>
+    <span style="font-size:11px; color:#777;">Taiwan (ZH)</span>
+    <span style="font-size:11px; color:#aaa; margin-left:20px;">Support</span>
+  </div>
+
+  <!-- ── NAV ── -->
+  <div style="background:#fff; height:64px; display:flex; align-items:center; padding:0 60px; border-bottom:1px solid #e8e8e8; position:relative;">
+    <div style="background:#1a1a1a; padding:6px 14px; font-size:14px; font-weight:bold; color:#fff; margin-right:48px; flex-shrink:0;">[  LOGO  ]</div>
+    <div style="display:flex; flex:1; gap:0;">
+      <div style="padding:0 22px; height:64px; display:flex; align-items:center; font-size:13px; color:#111; font-weight:bold; border-bottom:2px solid #111;">Products</div>
+      <div style="padding:0 22px; height:64px; display:flex; align-items:center; font-size:13px; color:#777;">Warranty</div>
+      <div style="padding:0 22px; height:64px; display:flex; align-items:center; font-size:13px; color:#777;">Support</div>
+      <div style="padding:0 22px; height:64px; display:flex; align-items:center; font-size:13px; color:#777;">Where to Buy</div>
+      <div style="padding:0 22px; height:64px; display:flex; align-items:center; font-size:13px; color:#777;">About</div>
+    </div>
+    <div style="display:flex; gap:12px; align-items:center;">
+      <div style="font-size:12px; color:#777;">[ Search ]</div>
+      <div style="border:1px solid #bbb; padding:5px 14px; font-size:11px; color:#555;">EN  v</div>
+    </div>
+    <div style="position:absolute; bottom:0; left:0; right:0; height:1px; background:#e8e8e8;"></div>
+  </div>
+
+  <div class="sec-note">NAV NOTE: White background nav (not dark) — gives cleaner brand feel. Dark only on hero overlap if using transparent nav.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 1 — CINEMATIC FULL-SCREEN HERO
+       BMW approach: one image, one message, one CTA
+       ════════════════════════════════════════ -->
+  <div style="position:relative; background:#111; height:680px; overflow:hidden;">
+
+    <!-- Background image placeholder — fills full width -->
+    <div class="ph-img" style="position:absolute; inset:0; background:#1a1a1a; border:none; color:#444; font-size:13px; flex-direction:column; gap:8px;">
+      <div style="font-size:16px; color:#555; font-weight:bold;">[ HERO BACKGROUND — Full-bleed lifestyle photography ]</div>
+      <div>Dashcam mounted on dashboard, real driving scene — night highway, city lights, motion blur</div>
+      <div style="font-size:11px; color:#333; margin-top:8px;">1440 x 680px minimum  ·  16:9  ·  Dark-toned image works best with white text overlay</div>
+      <div style="font-size:11px; color:#333;">Alternative: looping 10-second video (no audio, autoplay, muted)</div>
+    </div>
+
+    <!-- Content — left-aligned, vertically centered -->
+    <div style="position:absolute; left:80px; top:50%; transform:translateY(-50%); max-width:560px;">
+      <div style="font-size:11px; color:#888; letter-spacing:3px; margin-bottom:16px;">HP DASHCAM  —  OFFICIAL AUTHORIZED DISTRIBUTOR</div>
+      <div style="font-size:56px; font-weight:bold; color:#fff; line-height:1.1; margin-bottom:20px;">
+        See Every<br>Road. Clearly.
+      </div>
+      <div style="font-size:16px; color:#aaa; line-height:1.6; margin-bottom:36px; max-width:440px;">
+        HP-licensed dashcams engineered for precision, reliability, and the moments that matter most.
+      </div>
+      <div style="display:flex; gap:16px;">
+        <div style="padding:14px 36px; background:#fff; color:#111; font-size:13px; font-weight:bold;">Explore Products</div>
+        <div style="padding:14px 36px; border:2px solid #666; color:#ccc; font-size:13px;">Register Warranty</div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div style="position:absolute; bottom:28px; left:50%; transform:translateX(-50%); display:flex; flex-direction:column; align-items:center; gap:6px;">
+      <div style="width:1px; height:32px; background:#555;"></div>
+      <div style="font-size:10px; color:#555; letter-spacing:2px;">SCROLL</div>
+    </div>
+
+    <!-- Product name tag — bottom right -->
+    <div style="position:absolute; bottom:28px; right:80px; text-align:right;">
+      <div style="font-size:11px; color:#666; letter-spacing:2px;">FEATURED</div>
+      <div style="font-size:16px; font-weight:bold; color:#aaa;">HP f660x  /  4K Dashcam</div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 1 — HERO: Full 680px height, cinematic. NO carousel dots, NO badge tag, NO category bar below. One message only. Background image should dominate.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 2 — BRAND STATEMENT
+       HP.com / luxury brand approach: bold type, white space
+       ════════════════════════════════════════ -->
+  <div style="background:#fff; padding:96px 80px; text-align:center; border-bottom:1px solid #f0f0f0;">
+    <div style="font-size:11px; color:#aaa; letter-spacing:3px; margin-bottom:20px;">THE HP DIFFERENCE</div>
+    <div style="font-size:48px; font-weight:bold; color:#111; line-height:1.15; max-width:800px; margin:0 auto 24px;">
+      Built to HP Standards.<br>Made for Every Drive.
+    </div>
+    <div style="font-size:16px; color:#777; max-width:560px; margin:0 auto 48px; line-height:1.7;">
+      As the authorized HP distributor, every dashcam we carry meets HP Inc.'s global quality standards — from component sourcing to final quality control.
+    </div>
+    <!-- 3 brand pillars — horizontal, minimal -->
+    <div style="display:flex; gap:0; border-top:1px solid #e8e8e8; border-bottom:1px solid #e8e8e8; max-width:900px; margin:0 auto;">
+      <div style="flex:1; padding:32px 24px; border-right:1px solid #e8e8e8; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#111; margin-bottom:6px;">10+</div>
+        <div style="font-size:12px; color:#999; letter-spacing:1px;">YEARS OF HP PARTNERSHIP</div>
+      </div>
+      <div style="flex:1; padding:32px 24px; border-right:1px solid #e8e8e8; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#111; margin-bottom:6px;">50+</div>
+        <div style="font-size:12px; color:#999; letter-spacing:1px;">MODELS ACROSS 3 PRODUCT LINES</div>
+      </div>
+      <div style="flex:1; padding:32px 24px; text-align:center;">
+        <div style="font-size:28px; font-weight:bold; color:#111; margin-bottom:6px;">3</div>
+        <div style="font-size:12px; color:#999; letter-spacing:1px;">REGIONS — US · JAPAN · TAIWAN</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 2 — BRAND STATEMENT: Pure white, generous padding, large typography. No product cards. This is the brand identity moment, not a product listing.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 3A — PRODUCT SHOWCASE: CAR DASHCAM
+       BMW approach: full-bleed image, product name large, 1 CTA
+       Left image / Right text
+       ════════════════════════════════════════ -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; min-height:520px;">
+
+    <!-- Image side -->
+    <div class="ph-img" style="background:#222; border:none; color:#555; font-size:12px; min-height:520px; flex-direction:column; gap:8px;">
+      <div style="font-size:14px; color:#444; font-weight:bold;">[ PRODUCT IN CONTEXT — Lifestyle shot ]</div>
+      <div>HP f660x mounted and recording at night</div>
+      <div style="font-size:11px; color:#333;">Full bleed, no padding, image fills the cell</div>
+    </div>
+
+    <!-- Text side -->
+    <div style="background:#111; padding:80px 72px; display:flex; flex-direction:column; justify-content:center;">
+      <div style="font-size:10px; color:#666; letter-spacing:3px; margin-bottom:16px;">CAR DASHCAM</div>
+      <div style="font-size:44px; font-weight:bold; color:#fff; line-height:1.1; margin-bottom:20px;">HP f660x</div>
+      <div style="font-size:15px; color:#aaa; line-height:1.7; margin-bottom:12px;">4K Ultra HD  ·  Sony STARVIS Night Vision</div>
+      <div style="font-size:15px; color:#aaa; line-height:1.7; margin-bottom:36px;">GPS Tracking  ·  Wi-Fi App  ·  140° Wide Angle</div>
+      <!-- Just 2 spec highlights — no long list -->
+      <div style="display:flex; gap:24px; margin-bottom:40px;">
+        <div style="border-left:2px solid #444; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#fff;">4K</div>
+          <div style="font-size:11px; color:#666; letter-spacing:1px;">RESOLUTION</div>
+        </div>
+        <div style="border-left:2px solid #444; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#fff;">140°</div>
+          <div style="font-size:11px; color:#666; letter-spacing:1px;">WIDE ANGLE</div>
+        </div>
+        <div style="border-left:2px solid #444; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#fff;">Sony</div>
+          <div style="font-size:11px; color:#666; letter-spacing:1px;">STARVIS SENSOR</div>
+        </div>
+      </div>
+      <div style="display:flex; gap:14px;">
+        <div style="padding:13px 32px; background:#fff; color:#111; font-size:13px; font-weight:bold;">Learn More</div>
+        <div style="padding:13px 32px; border:1px solid #555; color:#aaa; font-size:13px;">View All Dashcams</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 3A — PRODUCT SHOWCASE: Half-screen split. Dark text panel, large image. Product name is the headline. NO spec table, NO badge. 3 key numbers only.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 3B — PRODUCT SHOWCASE: MOTO CAM
+       Right image / Left text (alternates)
+       ════════════════════════════════════════ -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; min-height:520px;">
+
+    <!-- Text side -->
+    <div style="background:#f8f8f8; padding:80px 72px; display:flex; flex-direction:column; justify-content:center; border-right:1px solid #e8e8e8;">
+      <div style="font-size:10px; color:#999; letter-spacing:3px; margin-bottom:16px;">MOTO CAM</div>
+      <div style="font-size:44px; font-weight:bold; color:#111; line-height:1.1; margin-bottom:20px;">HP m700 Pro</div>
+      <div style="font-size:15px; color:#666; line-height:1.7; margin-bottom:36px;">Built for riders. Waterproof IP67 — records through rain, dust, and every road condition.</div>
+      <div style="display:flex; gap:24px; margin-bottom:40px;">
+        <div style="border-left:2px solid #ccc; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#111;">2K</div>
+          <div style="font-size:11px; color:#aaa; letter-spacing:1px;">RESOLUTION</div>
+        </div>
+        <div style="border-left:2px solid #ccc; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#111;">IP67</div>
+          <div style="font-size:11px; color:#aaa; letter-spacing:1px;">WATERPROOF</div>
+        </div>
+        <div style="border-left:2px solid #ccc; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#111;">BT</div>
+          <div style="font-size:11px; color:#aaa; letter-spacing:1px;">REMOTE</div>
+        </div>
+      </div>
+      <div style="display:flex; gap:14px;">
+        <div style="padding:13px 32px; background:#111; color:#fff; font-size:13px; font-weight:bold;">Learn More</div>
+        <div style="padding:13px 32px; border:1px solid #bbb; color:#555; font-size:13px;">View All Moto Cams</div>
+      </div>
+    </div>
+
+    <!-- Image side -->
+    <div class="ph-img" style="background:#2a2a2a; border:none; color:#555; font-size:12px; min-height:520px; flex-direction:column; gap:8px;">
+      <div style="font-size:14px; color:#444; font-weight:bold;">[ LIFESTYLE SHOT ]</div>
+      <div>Motorcycle in motion, dashcam visible</div>
+      <div style="font-size:11px; color:#333;">Riding scene, dramatic angle</div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 3B — MOTO CAM SHOWCASE: Light panel this time (alternates with dark). Same structure, different product. Do NOT show 3 products as equal cards — give each a full moment.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 3C — PRODUCT SHOWCASE: MIRROR CAM
+       Full-width horizontal, less height
+       ════════════════════════════════════════ -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; min-height:480px;">
+
+    <!-- Image side -->
+    <div class="ph-img" style="background:#1e1e1e; border:none; color:#555; font-size:12px; min-height:480px; flex-direction:column; gap:8px;">
+      <div style="font-size:14px; color:#444; font-weight:bold;">[ MIRROR CAM INTERIOR SHOT ]</div>
+      <div>HP i885w installed on rearview mirror</div>
+      <div style="font-size:11px; color:#333;">Interior cabin, dashboard context</div>
+    </div>
+
+    <!-- Text side -->
+    <div style="background:#222; padding:80px 72px; display:flex; flex-direction:column; justify-content:center;">
+      <div style="font-size:10px; color:#666; letter-spacing:3px; margin-bottom:16px;">REAR-VIEW MIRROR CAM</div>
+      <div style="font-size:44px; font-weight:bold; color:#fff; line-height:1.1; margin-bottom:20px;">HP i885w</div>
+      <div style="font-size:15px; color:#aaa; line-height:1.7; margin-bottom:36px;">11-inch touch display. Front and rear recording. Your entire driving view — in one clean screen.</div>
+      <div style="display:flex; gap:24px; margin-bottom:40px;">
+        <div style="border-left:2px solid #444; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#fff;">11"</div>
+          <div style="font-size:11px; color:#666; letter-spacing:1px;">TOUCH DISPLAY</div>
+        </div>
+        <div style="border-left:2px solid #444; padding-left:16px;">
+          <div style="font-size:22px; font-weight:bold; color:#fff;">Dual</div>
+          <div style="font-size:11px; color:#666; letter-spacing:1px;">FRONT + REAR</div>
+        </div>
+      </div>
+      <div style="display:flex; gap:14px;">
+        <div style="padding:13px 32px; background:#fff; color:#111; font-size:13px; font-weight:bold;">Learn More</div>
+        <div style="padding:13px 32px; border:1px solid #555; color:#aaa; font-size:13px;">View All Mirror Cams</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 3C — MIRROR CAM: Third product showcase. Three showcases total, one per product line. Each gets a full half-screen image. Never shrink products to a card grid on the homepage.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 4 — WARRANTY CTA
+       Full-bleed dark, one message
+       ════════════════════════════════════════ -->
+  <div style="position:relative; background:#111; padding:80px 80px; display:flex; align-items:center; gap:80px; border-top:1px solid #222;">
+
+    <!-- Text -->
+    <div style="flex:1;">
+      <div style="font-size:11px; color:#555; letter-spacing:3px; margin-bottom:16px;">2-YEAR WARRANTY</div>
+      <div style="font-size:42px; font-weight:bold; color:#fff; line-height:1.15; margin-bottom:16px;">
+        Register Your<br>Warranty Online.
+      </div>
+      <div style="font-size:15px; color:#777; line-height:1.7; max-width:500px;">
+        Activate full 2-year HP warranty coverage in minutes. No mail-in. No waiting. Your protection starts the moment you register.
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div style="flex-shrink:0; text-align:center;">
+      <div style="padding:18px 52px; background:#fff; color:#111; font-size:14px; font-weight:bold; margin-bottom:16px; display:inline-block;">Register Now</div>
+      <div style="font-size:12px; color:#555;">Takes less than 2 minutes</div>
+    </div>
+
+    <!-- Background texture suggestion -->
+    <div style="position:absolute; right:0; top:0; bottom:0; width:360px; opacity:0.04;">
+      <div style="width:100%; height:100%; background:repeating-linear-gradient(45deg, #fff 0px, #fff 1px, transparent 1px, transparent 20px);"></div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 4 — WARRANTY CTA: Full dark panel. Large type. Single CTA. Clean. No icons, no bullet list. Warranty is a KEY differentiator — give it space and confidence.</div>
+
+
+  <!-- ════════════════════════════════════════
+       SECTION 5 — HP BRAND TRUST
+       Replaces "How Can We Help?" utility section
+       One image + brand statement, not a 4-card grid
+       ════════════════════════════════════════ -->
+  <div style="display:grid; grid-template-columns:1fr 1fr; min-height:400px;">
+
+    <!-- Image side -->
+    <div class="ph-img" style="background:#e8e8e8; border:none; color:#aaa; font-size:12px; min-height:400px; flex-direction:column; gap:8px;">
+      <div style="font-size:14px; color:#999; font-weight:bold;">[ HP AUTHORIZED VISUAL ]</div>
+      <div>HP logo + product shot, clean white background</div>
+      <div style="font-size:11px; color:#bbb;">Or: factory / quality inspection photograph</div>
+    </div>
+
+    <!-- Text side -->
+    <div style="background:#fff; padding:72px 80px; display:flex; flex-direction:column; justify-content:center; border-left:1px solid #eee;">
+      <div style="font-size:11px; color:#aaa; letter-spacing:3px; margin-bottom:16px;">AUTHORIZED BY HP INC.</div>
+      <div style="font-size:36px; font-weight:bold; color:#111; line-height:1.2; margin-bottom:20px;">
+        The Only Authorized<br>HP Dashcam Distributor.
+      </div>
+      <div style="font-size:14px; color:#666; line-height:1.8; margin-bottom:32px;">
+        Digilife Technologies holds a formal HP Inc. license to design, manufacture, and distribute HP-branded dashcams across the US, Japan, and Taiwan. When you buy from us, you buy with HP's assurance behind every product.
+      </div>
+      <div style="display:flex; gap:14px; flex-wrap:wrap;">
+        <div style="border:1px solid #ccc; padding:8px 20px; font-size:12px; font-weight:bold; color:#444;">Learn About Our License</div>
+        <div style="border:1px solid #ccc; padding:8px 20px; font-size:12px; color:#777;">Find Authorized Retailers</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="sec-note">SECTION 5 — BRAND TRUST: Replaces the 4-icon utility grid. This is your biggest brand differentiator vs. grey-market products — put it on the homepage as a story, not a support link.</div>
+
+
+  <!-- ════════════════════════════════════════
+       FOOTER — Streamlined
+       ════════════════════════════════════════ -->
+  <div style="background:#1a1a1a; padding:56px 80px 32px;">
+    <div style="display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:48px; margin-bottom:48px;">
+
+      <!-- Brand column -->
+      <div>
+        <div style="background:#fff; display:inline-block; padding:6px 14px; font-size:14px; font-weight:bold; color:#111; margin-bottom:20px;">[  LOGO  ]</div>
+        <div style="font-size:13px; color:#555; line-height:1.8; margin-bottom:20px;">Authorized HP dashcam distributor.<br>Digilife Technologies Co., LTD.</div>
+        <div style="display:flex; gap:12px;">
+          <div style="width:32px; height:32px; border:1px solid #333; display:flex; align-items:center; justify-content:center;"><div style="width:12px; height:12px; background:#444;"></div></div>
+          <div style="width:32px; height:32px; border:1px solid #333; display:flex; align-items:center; justify-content:center;"><div style="width:12px; height:12px; background:#444;"></div></div>
+          <div style="width:32px; height:32px; border:1px solid #333; display:flex; align-items:center; justify-content:center;"><div style="width:12px; height:12px; background:#444;"></div></div>
+        </div>
+      </div>
+
+      <!-- Products -->
+      <div>
+        <div style="font-size:11px; font-weight:bold; color:#aaa; letter-spacing:1px; margin-bottom:16px;">PRODUCTS</div>
+        <div style="font-size:13px; color:#666; line-height:2.4;">Car Dashcam<br>Moto Cam<br>Mirror Cam<br>All Products</div>
+      </div>
+
+      <!-- Support -->
+      <div>
+        <div style="font-size:11px; font-weight:bold; color:#aaa; letter-spacing:1px; margin-bottom:16px;">SUPPORT</div>
+        <div style="font-size:13px; color:#666; line-height:2.4;">Warranty<br>Downloads<br>FAQ<br>Contact Us</div>
+      </div>
+
+      <!-- Company + Regions -->
+      <div>
+        <div style="font-size:11px; font-weight:bold; color:#aaa; letter-spacing:1px; margin-bottom:16px;">COMPANY</div>
+        <div style="font-size:13px; color:#666; line-height:2.4;">About Us<br>HP License<br>Where to Buy<br>Privacy Policy</div>
+        <div style="font-size:11px; font-weight:bold; color:#aaa; letter-spacing:1px; margin-top:24px; margin-bottom:12px;">REGIONS</div>
+        <div style="font-size:13px; color:#666; line-height:2.4;">US  ·  Japan  ·  Taiwan</div>
+      </div>
+
+    </div>
+
+    <div style="border-top:1px solid #2a2a2a; padding-top:20px; display:flex; justify-content:space-between; align-items:center;">
+      <div style="font-size:11px; color:#444;">(c) 2025 Digilife Technologies Co., LTD.  HP trademark owned by HP Inc.</div>
+      <div style="font-size:11px; color:#444;">Privacy Policy  ·  Terms of Use</div>
+    </div>
+  </div>
+
+
+  <!-- ════════════════════════════════════════
+       COMPARISON NOTES
+       ════════════════════════════════════════ -->
+  <div style="background:#f4f4f4; border-top:2px solid #333; padding:40px 60px;">
+    <div style="font-size:13px; font-weight:bold; color:#333; margin-bottom:20px; letter-spacing:1px;">WHAT CHANGED FROM THE ORIGINAL WIREFRAME — AND WHY</div>
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:40px;">
+      <div>
+        <div style="font-size:11px; font-weight:bold; color:#999; letter-spacing:1px; margin-bottom:12px;">REMOVED</div>
+        <div style="font-size:12px; color:#666; line-height:2.2;">
+          6-icon category quick bar  —  utility feel, not brand feel<br>
+          3-card featured products grid  —  looks like e-commerce catalog<br>
+          Hero carousel dots + badge tag  —  adds clutter, breaks cinematic effect<br>
+          "How Can We Help?" 4-icon support section  —  moved to footer links<br>
+          Brand story text-only section  —  replaced with brand trust split panel
+        </div>
+      </div>
+      <div>
+        <div style="font-size:11px; font-weight:bold; color:#999; letter-spacing:1px; margin-bottom:12px;">ADDED / CHANGED</div>
+        <div style="font-size:12px; color:#666; line-height:2.2;">
+          Full-screen cinematic hero  —  680px, lifestyle shot, no clutter<br>
+          Brand statement section  —  large type, 3 key numbers, generous whitespace<br>
+          3 full product showcases (half-screen split each)  —  like BMW model pages<br>
+          Warranty as a confident full-width dark section  —  not a small banner<br>
+          HP brand trust panel  —  key differentiator gets its own visual moment<br>
+          White nav (not dark)  —  cleaner on scroll, more premium feel
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body>
+</html>
